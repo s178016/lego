@@ -1,0 +1,16 @@
+body,h1,p{
+	padding: 0;
+	margin: 0;
+}
+
+.title{
+	color:#489c5e;
+	text-transform: uppercase;
+}
+
+
+
+.video-title{
+	color:#80bad7;
+	font-size:20px;
+}
