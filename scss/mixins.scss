@@ -1,0 +1,17 @@
+@mixin pngSize($side){
+  width: $side;
+  height: $side;
+}
+
+
+@mixin wrap($color,$fSize,$fWeight:normal){
+  border:1px solid $color;
+  border-radius: 20px;
+  padding: 3px 10px;
+  p{
+    color:$color;
+    font-size: $fSize;
+    font-weight: $fWeight;
+  }
+
+}

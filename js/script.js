@@ -1,14 +1,19 @@
-$(function(){
-       
-    var $mt = $('nav .menu_toggle');
-    var $menu = $('.menu__item');
-    
-    $mt.click(function(){
-        $menu.slideToggle(500,function(){
-            if($(this).css('display') === 'none'){
-                $(this).removeAttr('style');
-            }
-        });
-    });
-    
-});
+  $(function(){
+
+      var $btn = $('.more-less');
+      var $tags = $('.tags');
+
+      $btn.click(function(){
+          $tags.slideToggle(500,function(){
+              if($(this).css('display') === 'none'){
+                  $(".more-less").html("&#65088;Show More");
+
+              }else{
+                $(".more-less").html("&#xfe3f;Show Less");
+
+              }
+          });
+      });
+
+  });
+;
